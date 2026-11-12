@@ -12,10 +12,13 @@ Senior Software Engineer with 10+ years of experience building scalable backend 
 
 | Period | Role | Company |
 |---|---|---|
-| Jun 2021 – Present | Senior Backend Software Engineer | FullStack Labs (Remote) |
-| Sept 2020 – Jun 2021 | Backend Software Engineer | Luiza Labs (Remote, Brazil) |
-| Jun 2019 – Sept 2020 | Senior Mobile Software Engineer | Social Bank (Brazil) |
+| Nov 2022 – Present | Senior Software Engineer | FullStack Labs (Remote, US-based consultancy) |
+| Sept 2021 – Nov 2022 | Senior Software Engineer | Questrade Financial Group (Remote, Canada) |
+| Jun 2020 – Sept 2021 | Backend Software Engineer | Luiza Labs (Remote, Brazil) |
+| Sept 2019 – Jun 2020 | Senior Mobile Software Engineer | Social Bank (Brazil) |
 | May 2014 – Oct 2018 | Junior Full Stack Engineer | Cedro Technologies (Brazil) |
+
+> Questrade was a direct employer (Canada), not a FullStack Labs client. FullStack Labs client work includes Paciolan.
 
 ---
 
@@ -32,6 +35,18 @@ Senior Software Engineer with 10+ years of experience building scalable backend 
 **Impact:** Delivered **3+ microfrontends and microservices** integrated into the Paciolan Pac-IO system, accelerating modernization without proportional increase in engineering headcount.
 
 **AI / Knowledge Signal:** Human-in-the-loop AI workflows, prompt engineering for code generation, code review at scale, LLM-assisted software delivery, microfrontend and microservices architecture.
+
+### Cloud Infrastructure — AWS (Paciolan)
+**Company:** FullStack Labs (client: Paciolan)
+**Problem:** New Pac-IO microservices needed notification delivery, asynchronous orchestration, and container hosting without heavy operational overhead.
+
+**Action:** Designed and deployed AWS infrastructure using **S3** for email template storage, **SNS** for user notification delivery, **SQS** for asynchronous microservice orchestration, and **ECS with Fargate** for container management and scalable deployment.
+
+**Impact:** Delivered low-overhead, scalable infrastructure for the modernized Pac-IO services.
+
+**AI / Knowledge Signal:** Event-driven cloud architecture, asynchronous queues, managed container platforms — infrastructure patterns used to serve and scale AI workloads.
+
+---
 
 ### Data Indexing & Search Optimization — Elasticsearch
 **Company:** FullStack Labs
@@ -190,7 +205,7 @@ Senior Software Engineer with 10+ years of experience building scalable backend 
 ---
 ### Smart POS Application — White-Label Mobile Platform
 **Company:** Social Bank
-**Period:** Jun 2019 – Sept 2020
+**Period:** Sept 2019 – Jun 2020
 **Problem:** Gas station POS systems required a scalable, customizable software solution with high reliability requirements.
 
 **Action:** Led end-to-end development of a **Smart POS application** for gas stations, designing it as a white-label platform ready for multi-brand customization.
@@ -216,8 +231,8 @@ Senior Software Engineer with 10+ years of experience building scalable backend 
 
 ## Education
 
-**Federal University of Uberlândia (UFU)**
-Computer Science / Information Systems
+**Bachelor's Degree in Computer Science**
+Universidade Federal de Uberlândia (UFU), Brazil · 2011 – 2015
 
 Authored an academic article on **Neural Networks learning the concept of influence in the game of Go**, detailing the evolution of an intelligent agent solving a complex strategic environment with high-dimensional state spaces.
 
