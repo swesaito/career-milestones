@@ -12,10 +12,14 @@ Senior Software Engineer with 10+ years of experience building scalable backend 
 
 | Period | Role | Company |
 |---|---|---|
-| Jun 2021 – Present | Senior Backend Software Engineer | FullStack Labs (Remote) |
-| Sept 2020 – Jun 2021 | Backend Software Engineer | Luiza Labs (Remote, Brazil) |
-| Jun 2019 – Sept 2020 | Senior Mobile Software Engineer | Social Bank (Brazil) |
+| Jul 2026 – Present | Creator and Sole Engineer (personal project) | Claverino |
+| Nov 2022 – Present | Senior Software Engineer | FullStack Labs (Remote, US-based consultancy) |
+| Sept 2021 – Nov 2022 | Senior Software Engineer | Questrade Financial Group (Remote, Canada) |
+| Jun 2020 – Sept 2021 | Backend Software Engineer | Luiza Labs (Remote, Brazil) |
+| Sept 2019 – Jun 2020 | Senior Mobile Software Engineer | Social Bank (Brazil) |
 | May 2014 – Oct 2018 | Junior Full Stack Engineer | Cedro Technologies (Brazil) |
+
+> Questrade was a direct employer (Canada), not a FullStack Labs client. FullStack Labs client work includes Paciolan.
 
 ---
 
@@ -32,6 +36,18 @@ Senior Software Engineer with 10+ years of experience building scalable backend 
 **Impact:** Delivered **3+ microfrontends and microservices** integrated into the Paciolan Pac-IO system, accelerating modernization without proportional increase in engineering headcount.
 
 **AI / Knowledge Signal:** Human-in-the-loop AI workflows, prompt engineering for code generation, code review at scale, LLM-assisted software delivery, microfrontend and microservices architecture.
+
+### Cloud Infrastructure — AWS (Paciolan)
+**Company:** FullStack Labs (client: Paciolan)
+**Problem:** New Pac-IO microservices needed notification delivery, asynchronous orchestration, and container hosting without heavy operational overhead.
+
+**Action:** Designed and deployed AWS infrastructure using **S3** for email template storage, **SNS** for user notification delivery, **SQS** for asynchronous microservice orchestration, and **ECS with Fargate** for container management and scalable deployment.
+
+**Impact:** Delivered low-overhead, scalable infrastructure for the modernized Pac-IO services.
+
+**AI / Knowledge Signal:** Event-driven cloud architecture, asynchronous queues, managed container platforms — infrastructure patterns used to serve and scale AI workloads.
+
+---
 
 ### Data Indexing & Search Optimization — Elasticsearch
 **Company:** FullStack Labs
@@ -190,7 +206,7 @@ Senior Software Engineer with 10+ years of experience building scalable backend 
 ---
 ### Smart POS Application — White-Label Mobile Platform
 **Company:** Social Bank
-**Period:** Jun 2019 – Sept 2020
+**Period:** Sept 2019 – Jun 2020
 **Problem:** Gas station POS systems required a scalable, customizable software solution with high reliability requirements.
 
 **Action:** Led end-to-end development of a **Smart POS application** for gas stations, designing it as a white-label platform ready for multi-brand customization.
@@ -214,10 +230,35 @@ Senior Software Engineer with 10+ years of experience building scalable backend 
 
 ---
 
+## Personal Project — Claverino (Vestibular Exam Prep Platform)
+
+**Period:** Jul 2026 – Present
+**Role:** Creator and sole engineer
+**Stack:** Node.js · Express · EJS · Next.js · PostgreSQL · Redis · Stripe · Google OAuth · Umami · Claude / Linear MCP
+
+**Problem:** Brazilian students preparing for vestibular entrance exams lacked a single place to practice real past-exam questions, take full simulated exams, and get study material targeted at their weak subjects.
+
+**Action:** Designed and built the platform end to end:
+- A **Node.js/Express REST API** with a Controller → Service → Repository architecture on **PostgreSQL**, with **Redis** for caching and sessions, covering accounts, questions, tagging, exams and performance tracking.
+- Authentication with email/password and **Google OAuth**, email confirmation, and password reset flows.
+- An **Express/EJS web app** for practice, question search, full past exams with per-subject results, and a custom simulado generator, plus a **Next.js admin dashboard**.
+- A **seed data pipeline** that turns entrance-exam PDFs into structured JSON with cropped figures, and classified **~1,280 questions** across all subjects into a hierarchical tag taxonomy.
+- **Personalized study recommendations:** "Estude agora" YouTube video suggestions ranked by each student's error rate per topic, with student voting.
+- **Monetization:** **Stripe** subscriptions with webhook handling, overdue-payment blocking, and a guardian account that invites and pays for students.
+- Product analytics with **Umami** and a sign-up funnel redesign (Google sign-up, step-by-step registration) to reduce drop-off.
+
+**AI-Augmented Delivery:** Runs the project with a **Claude-based PM agent** connected to Linear through MCP, which turns daily plans into epics, features and tickets using a JSON-schema-enforced ticket format, and hands tickets to design and engineering agents for implementation.
+
+**Impact:** Built a complete, monetization-ready platform as a solo engineer, from data ingestion to payments, planning and tracking 100+ tickets through an agent-driven workflow.
+
+**AI / Knowledge Signal:** Agentic software delivery, MCP tool integration, structured LLM output, personalized recommendation logic, data pipelines from unstructured documents — end-to-end ownership of an AI-assisted product.
+
+---
+
 ## Education
 
-**Federal University of Uberlândia (UFU)**
-Computer Science / Information Systems
+**Bachelor's Degree in Computer Science**
+Universidade Federal de Uberlândia (UFU), Brazil · 2011 – 2015
 
 Authored an academic article on **Neural Networks learning the concept of influence in the game of Go**, detailing the evolution of an intelligent agent solving a complex strategic environment with high-dimensional state spaces.
 
